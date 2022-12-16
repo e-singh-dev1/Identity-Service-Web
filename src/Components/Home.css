@@ -1,0 +1,76 @@
+.home-title{
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+    font-style: oblique;
+    color: darkblue;
+    }
+.home-container{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: dimgrey;
+    padding-bottom: 10px;
+}
+.home-table{
+    display: flex;
+    justify-content: center;
+}
+thead{
+    font-size: 25px;
+}
+.create-button{
+  background-color: #24b3cc; 
+  border-radius: none;
+  color: white;
+  padding: 15px 36px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: 0.4s;
+}
+.create-button:hover{
+    background-color:antiquewhite;
+    color: #1b7e1e;
+    }
+.button-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    }
+.update-button{
+    background-color: #4CAF50; 
+    border:2px solid black;
+    border-radius: none;
+    color: white;
+    padding: 15px 36px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    transition: 0.4s;
+}
+.delete-button{
+    background-color: #f4092c; 
+    border: 2px solid black;
+    border-radius: 100px;
+    color: white;
+    padding: 15px 36px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-style: italic;
+    transition: 0.4s;
+}
+.update-button:hover{
+    background-color: blanchedalmond;
+    color: black;
+}
+.delete-button:hover{
+    background-color: blanchedalmond;
+    color: black;
+}
